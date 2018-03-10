@@ -1,0 +1,20 @@
+<h2 class="text-muted">Asset Detail</h2>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card mb-3">
+      <div class="card-header">
+        Asset
+      </div>
+      <div class="card-body">
+        <div>
+          <span>Asset No: </span>
+          <span>{{(asset$ | async)?.assetNo}}</span>
+        </div>
+        <div>
+          <span>Description: </span>
+          <span>{{(asset$ | async)?.description}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
